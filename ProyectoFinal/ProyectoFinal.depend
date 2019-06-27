@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1558447512 source:c:\users\user\documents\c++\proyectofinal\main.cpp
+	<iostream>
+	<exception>
+	<string>
+	<string.h>
+	<cstring>
+	<stdlib.h>
+	<time.h>
+	"Compras.h"
+	"Registros.h"
+
+1558440883 source:c:\users\user\documents\c++\proyectofinal\src\compras.cpp
+	"Compras.h"
+
+1558434667 c:\users\user\documents\c++\proyectofinal\include\compras.h
+	<iostream>
+
+1558415612 source:c:\users\user\documents\c++\proyectofinal\src\aeromozas.cpp
+	"Aeromozas.h"
+
+1558415699 c:\users\user\documents\c++\proyectofinal\include\aeromozas.h
+	<iostream>
+
+1558415612 source:c:\users\user\documents\c++\proyectofinal\src\pasajeros.cpp
+	"Pasajeros.h"
+
+1558415681 c:\users\user\documents\c++\proyectofinal\include\pasajeros.h
+	<iostream>
+
+1558444658 source:c:\users\user\documents\c++\proyectofinal\src\registros.cpp
+	"Registros.h"
+
+1558444658 c:\users\user\documents\c++\proyectofinal\include\registros.h
+	<iostream>
+	"Compras.h"
+
+1558434667 c:\users\user\documents\c++\proyectofinal\compras.h
+	<iostream>
+
+1558444658 c:\users\user\documents\c++\proyectofinal\registros.h
+	<iostream>
+	"Compras.h"
+
