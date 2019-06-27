@@ -1,0 +1,70 @@
+     Assembly listing for: KINGTO.mas
+                Assembled: Wed Nov 21 00:57:42 CST 2018
+
+         |                          //ERBEY ARATH HERNANDEZ VILLARREAL, A00825343
+         |         ORG 100           
+100 5000 |         INPUT             
+101 2129 |         STORE A           
+102 1129 |         LOAD A            
+103 312F |         ADD ONE           
+104 212A |         STORE B           
+105 A000 |         CLEAR             
+106 112A |         LOAD B            
+107 312F |         ADD ONE           
+108 212B |         STORE C           
+109 A000 |         CLEAR             
+10A 112B |         LOAD C            
+10B 312F |         ADD ONE           
+10C 212C |         STORE D           
+10D A000 |         CLEAR             
+10E 112C |         LOAD D            
+10F 312F |         ADD ONE           
+110 212D |         STORE E           
+111 A000 |         CLEAR             
+112 112D |         LOAD E            
+113 312F |         ADD ONE           
+114 212E |         STORE F           
+115 A000 |         CLEAR             
+116 1129 |         LOAD A            
+117 6000 |         OUTPUT            
+118 A000 |         CLEAR             
+119 112A |         LOAD B            
+11A 6000 |         OUTPUT            
+11B A000 |         CLEAR             
+11C 112B |         LOAD C            
+11D 6000 |         OUTPUT            
+11E A000 |         CLEAR             
+11F 112C |         LOAD D            
+120 6000 |         OUTPUT            
+121 A000 |         CLEAR             
+122 112D |         LOAD E            
+123 6000 |         OUTPUT            
+124 A000 |         CLEAR             
+125 112E |         LOAD F            
+126 6000 |         OUTPUT            
+127 A000 |         CLEAR             
+128 7000 |         HALT              
+129 0000 |  A      DEC 0             
+12A 0000 |  B      DEC 0             
+12B 0000 |  C      DEC 0             
+12C 0000 |  D      DEC 0             
+12D 0000 |  E      DEC 0             
+12E 0000 |  F      DEC 0             
+12F 0000 |  ONE    DEC 0             
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          A      |   129   | 101, 102, 116
+          B      |   12A   | 104, 106, 119
+          C      |   12B   | 108, 10A, 11C
+          D      |   12C   | 10C, 10E, 11F
+          E      |   12D   | 110, 112, 122
+          F      |   12E   | 114, 125
+          ONE    |   12F   | 103, 107, 10B, 10F, 113
+         --------------------------------------------------
+
+

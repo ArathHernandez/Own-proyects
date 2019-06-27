@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1542655645 source:c:\users\user\documents\c++\loteria\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+

@@ -1,0 +1,111 @@
+     Assembly listing for: X-2.mas
+                Assembled: Wed Nov 21 00:18:54 CST 2018
+
+         |         ORG 100           
+100 5000 |         INPUT             
+101 2??? |         STORE X           
+   **** Operand undefined.
+102 5000 |         INPUT             
+103 2??? |         STORE A           
+   **** Operand undefined.
+104 5000 |         INPUT             
+105 2??? |         STORE B           
+   **** Operand undefined.
+106 5000 |         INPUT             
+107 2??? |         STORE C           
+   **** Operand undefined.
+108 1??? |         LOAD X            
+   **** Operand undefined.
+109 ???? |         SUBT2             
+   **** Instruction not recognized.
+   **** Missing operand.
+10A 2??? |         STORE X           
+   **** Operand undefined.
+10B A000 |         CLEAR             
+10C 1??? |         LOAD A            
+   **** Operand undefined.
+10D ???? |         STORECOUNT        
+   **** Instruction not recognized.
+   **** Missing operand.
+10E ?001 |         LOOP 001          
+   **** Instruction not recognized.
+10F 1??? |         LOAD X            
+   **** Operand undefined.
+110 3??? |         ADD Sum           
+   **** Operand undefined.
+111 6000 |         OUTPUT            
+112 2??? |         STORE Sum         
+   **** Operand undefined.
+113 1??? |         LOAD Count        
+   **** Operand undefined.
+114 4??? |         SUBT One          
+   **** Operand undefined.
+115 2??? |         STORE Count       
+   **** Operand undefined.
+116 8800 |         SKIPCOND 800      
+117 9??? |         JUMP Count        
+   **** Operand undefined.
+118 9??? |         JUMP Loop         
+   **** Operand undefined.
+119 ?002 |         COUNT 002         
+   **** Instruction not recognized.
+11A 1??? |         LOAD B            
+   **** Operand undefined.
+11B 2??? |         STORE Count       
+   **** Operand undefined.
+11C A000 |         CLEAR             
+11D 1??? |         LOAD Sum          
+   **** Operand undefined.
+11E 4??? |         SUBT three        
+   **** Operand undefined.
+11F 2??? |         STORE Sum         
+   **** Operand undefined.
+120 A000 |         CLEAR             
+121 ?002 |         LOOP 002          
+   **** Instruction not recognized.
+122 1??? |         LOAD Sum          
+   **** Operand undefined.
+123 3??? |         ADD Sum           
+   **** Operand undefined.
+124 2??? |         STORE Sum         
+   **** Operand undefined.
+125 6000 |         OUTPUT            
+126 1??? |         LOAD Count        
+   **** Operand undefined.
+127 4??? |         SUBT one          
+   **** Operand undefined.
+128 2??? |         STORE Count       
+   **** Operand undefined.
+129 4??? |         SUBT one          
+   **** Operand undefined.
+12A 2??? |         STORE count       
+   **** Operand undefined.
+12B 8800 |         SKIPCOND 800      
+12C 9??? |         JUMP count        
+   **** Operand undefined.
+12D 9??? |         JUMP loop         
+   **** Operand undefined.
+12E ?003 |         COUNT 003         
+   **** Instruction not recognized.
+12F 1??? |         LOAD C            
+   **** Operand undefined.
+130 2??? |         STORE Count       
+   **** Operand undefined.
+131 A000 |         CLEAR             
+132 1??? |         LOAD Sum          
+   **** Operand undefined.
+133 4??? |         SUBT four         
+   **** Operand undefined.
+134 2??? |         STORE Sum         
+   **** Operand undefined.
+135 A000 |         CLEAR             
+
+43 errors found.  Assembly unsuccessful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+         --------------------------------------------------
+
+

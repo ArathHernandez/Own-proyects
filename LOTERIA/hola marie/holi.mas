@@ -1,0 +1,43 @@
+//Erbey Arath Hernandez Villarreal, a00825343
+
+ORG 100
+INPUT
+STORE a
+INPUT
+STORE b
+INPUT
+STORE c
+LOAD a
+SUBT b
+STORE result
+CLEAR
+LOAD result
+ADD c
+STORE result
+CLEAR
+LOAD five
+STORE count
+LOOP1
+LOAD result
+ADD sum1
+OUTPUT
+STORE sum1
+LOAD count
+SUBT one
+STORE count
+SKIPCOND 800
+JUMP end
+JUMP loop1
+END
+LOAD sum1
+OUTPUT
+HALT
+a DEC 0
+b DEC 0
+c DEC 0
+d DEC 0
+sum1 DEC 0
+count DEC 0
+result DEC 0
+one DEC 1
+five DEC 5

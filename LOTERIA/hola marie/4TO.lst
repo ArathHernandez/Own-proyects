@@ -1,0 +1,69 @@
+     Assembly listing for: 4TO.mas
+                Assembled: Wed Nov 21 01:14:16 CST 2018
+
+         |                          //Erbey Arath Hernandez Villarreal, a00825343
+         |                          
+         |         ORG 100           
+100 5000 |         INPUT             
+101 2125 |         STORE a           
+102 5000 |         INPUT             
+103 2126 |         STORE b           
+104 5000 |         INPUT             
+105 2127 |         STORE c           
+106 5000 |         INPUT             
+107 2128 |         STORE d           
+108 1125 |         LOAD a            
+109 2129 |         STORE a1          
+10A 1126 |         LOAD b            
+10B 212A |         STORE b1          
+10C 1127 |         LOAD c            
+10D 212B |         STORE c1          
+10E 1128 |         LOAD d            
+10F 212C |         STORE d1          
+110 112C |         LOAD d1           
+111 2125 |         STORE a           
+112 112B |         LOAD c1           
+113 2126 |         STORE b           
+114 112A |         LOAD b1           
+115 2127 |         STORE c           
+116 1129 |         LOAD a1           
+117 2128 |         STORE d           
+118 1125 |         LOAD a            
+119 6000 |         OUTPUT            
+11A A000 |         CLEAR             
+11B 1126 |         LOAD b            
+11C 6000 |         OUTPUT            
+11D A000 |         CLEAR             
+11E 1127 |         LOAD c            
+11F 6000 |         OUTPUT            
+120 A000 |         CLEAR             
+121 1128 |         LOAD d            
+122 6000 |         OUTPUT            
+123 A000 |         CLEAR             
+124 7000 |         HALT              
+125 0000 |  a      DEC 0             
+126 0000 |  b      DEC 0             
+127 0000 |  c      DEC 0             
+128 0000 |  d      DEC 0             
+129 0000 |  a1     DEC 0             
+12A 0000 |  b1     DEC 0             
+12B 0000 |  c1     DEC 0             
+12C 0000 |  d1     DEC 0             
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          a      |   125   | 101, 108, 111, 118
+          a1     |   129   | 109, 116
+          b      |   126   | 103, 10A, 113, 11B
+          b1     |   12A   | 10B, 114
+          c      |   127   | 105, 10C, 115, 11E
+          c1     |   12B   | 10D, 112
+          d      |   128   | 107, 10E, 117, 121
+          d1     |   12C   | 10F, 110
+         --------------------------------------------------
+
+

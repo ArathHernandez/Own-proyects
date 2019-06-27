@@ -1,0 +1,124 @@
+     Assembly listing for: SETSO.mas
+                Assembled: Wed Nov 21 01:07:09 CST 2018
+
+         |                          //ERBEY ARATH HERNANDEZ VILLARREAL, A00825343
+         |                          
+000 5000 |         INPUT             
+001 205A |         STORE A           
+002 5000 |         INPUT             
+003 205B |         STORE B           
+004 5000 |         INPUT             
+005 205C |         STORE C           
+006 5000 |         INPUT             
+007 205D |         STORE D           
+008 5000 |         INPUT             
+009 205E |         STORE E           
+00A 105A |         LOAD A            
+00B 305F |         ADD COUNT         
+00C 205A |         STORE A           
+00D A000 |         CLEAR             
+00E 105F |         LOAD COUNT        
+00F 3060 |         ADD ONE           
+010 205F |         STORE COUNT       
+011 A000 |         CLEAR             
+012 105B |         LOAD B            
+013 305F |         ADD COUNT         
+014 205B |         STORE B           
+015 A000 |         CLEAR             
+016 105F |         LOAD COUNT        
+017 3060 |         ADD ONE           
+018 205F |         STORE COUNT       
+019 A000 |         CLEAR             
+01A 105C |         LOAD C            
+01B 305F |         ADD COUNT         
+01C 205C |         STORE C           
+01D A000 |         CLEAR             
+01E 105F |         LOAD COUNT        
+01F 3060 |         ADD ONE           
+020 205F |         STORE COUNT       
+021 A000 |         CLEAR             
+022 105D |         LOAD D            
+023 305F |         ADD COUNT         
+024 205D |         STORE D           
+025 A000 |         CLEAR             
+026 105F |         LOAD COUNT        
+027 3060 |         ADD ONE           
+028 205F |         STORE COUNT       
+029 A000 |         CLEAR             
+02A 105E |         LOAD E            
+02B 305F |         ADD COUNT         
+02C 205E |         STORE E           
+02D A000 |         CLEAR             
+02E 105F |         LOAD COUNT        
+02F 3060 |         ADD ONE           
+030 205F |         STORE COUNT       
+031 A000 |         CLEAR             
+032 105A |         LOAD A            
+033 305F |         ADD COUNT         
+034 205A |         STORE A           
+035 A000 |         CLEAR             
+036 105F |         LOAD COUNT        
+037 3060 |         ADD ONE           
+038 205F |         STORE COUNT       
+039 A000 |         CLEAR             
+03A 105B |         LOAD B            
+03B 305F |         ADD COUNT         
+03C 205B |         STORE B           
+03D A000 |         CLEAR             
+03E 105F |         LOAD COUNT        
+03F 3060 |         ADD ONE           
+040 205F |         STORE COUNT       
+041 A000 |         CLEAR             
+042 105C |         LOAD C            
+043 305F |         ADD COUNT         
+044 205C |         STORE C           
+045 A000 |         CLEAR             
+046 105F |         LOAD COUNT        
+047 3060 |         ADD ONE           
+048 205F |         STORE COUNT       
+049 A000 |         CLEAR             
+04A 105D |         LOAD D            
+04B 305F |         ADD COUNT         
+04C 205D |         STORE D           
+04D A000 |         CLEAR             
+04E 105F |         LOAD COUNT        
+04F 3060 |         ADD ONE           
+050 205F |         STORE COUNT       
+051 A000 |         CLEAR             
+052 105E |         LOAD E            
+053 305F |         ADD COUNT         
+054 205E |         STORE E           
+055 A000 |         CLEAR             
+056 105F |         LOAD COUNT        
+057 3060 |         ADD ONE           
+058 205F |         STORE COUNT       
+059 A000 |         CLEAR             
+05A 0000 |  A      DEC 0             
+05B 0000 |  B      DEC 0             
+05C 0000 |  C      DEC 0             
+05D 0000 |  D      DEC 0             
+05E 0000 |  E      DEC 0             
+05F 0001 |  COUNT  DEC 1             
+060 0001 |  ONE    DEC 1             
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          A      |   05A   | 001, 00A, 00C, 032, 034
+          B      |   05B   | 003, 012, 014, 03A, 03C
+          C      |   05C   | 005, 01A, 01C, 042, 044
+          COUNT  |   05F   | 00B, 00E, 010, 013, 016, 018, 
+                 |         | 01B, 01E, 020, 023, 026, 028, 
+                 |         | 02B, 02E, 030, 033, 036, 038, 
+                 |         | 03B, 03E, 040, 043, 046, 048, 
+                 |         | 04B, 04E, 050, 053, 056, 058
+          D      |   05D   | 007, 022, 024, 04A, 04C
+          E      |   05E   | 009, 02A, 02C, 052, 054
+          ONE    |   060   | 00F, 017, 01F, 027, 02F, 037, 
+                 |         | 03F, 047, 04F, 057
+         --------------------------------------------------
+
+

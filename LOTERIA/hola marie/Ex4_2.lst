@@ -1,0 +1,38 @@
+     Assembly listing for: Ex4_2.mas
+                Assembled: Wed Nov 21 01:23:01 CST 2018
+
+         |                          //ERBEY ARATH HERNANDEZ VILLARREAL, A00825343
+         |                          
+         |                          / Example 4.1
+         |         ORG 100           
+100 110C |  If     LOAD X           /Load the first value	
+101 410D |         SUBT Y           /Subtract the value of Y, store result in AC	
+102 8400 |         SKIPCOND 400     /If AC=0, skip the next instruction
+103 9108 |         JUMP Else        /Jump to Else part if AC is not equal to 0	
+104 110C |  Then   LOAD X           /Reload X so it can be doubled
+105 310C |         ADD X            /Double X
+106 210C |         STORE X          /Store the new value
+107 910B |         JUMP Endif       /Skip over the false, or else, part to end of if
+108 110D |  Else   LOAD Y           /Start the else part by loading Y
+109 410C |         SUBT X           /Subtract X from Y
+10A 210D |         STORE Y          /Store Y-X in Y
+10B 7000 |  Endif  HALT             /Terminate program (it doesn't do much!)
+10C 000C |  X      DEC 12           /Load the loop control variable
+10D 0014 |  Y      DEC 20           /Subtract one from the loop control variable
+         |         END               
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          Else   |   108   | 103
+          Endif  |   10B   | 107
+          If     |   100   | 
+          Then   |   104   | 
+          X      |   10C   | 100, 104, 105, 106, 109
+          Y      |   10D   | 101, 108, 10A
+         --------------------------------------------------
+
+

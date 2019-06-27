@@ -1,0 +1,37 @@
+     Assembly listing for: EJERCICIO 1.mas
+                Assembled: Wed Nov 21 01:18:50 CST 2018
+
+         |                          //Erbey Arath Hernández Villarreal, a00825343
+         |         ORG 100           
+100 ???? |  LOOP   3                 
+   **** Instruction not recognized.
+   **** Missing operand.
+101 1??? |         LOAD SUM2         
+   **** Operand undefined.
+102 3??? |         ADD SUM3          
+   **** Operand undefined.
+103 2??? |         STORE SUM3        
+   **** Operand undefined.
+104 6000 |         OUTPUT            
+105 1??? |         LOAD COUNT        
+   **** Operand undefined.
+106 ???? |  SUBT   ONE               
+   **** Instruction not recognized.
+   **** Missing operand.
+107 2??? |         STORE COUNT       
+   **** Operand undefined.
+108 8800 |         SKIPCOND 800      
+         |  JUMP   END               
+
+9 errors found.  Assembly unsuccessful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          JUMP   |   109   | 
+          LOOP   |   100   | 
+          SUBT   |   106   | 
+         --------------------------------------------------
+
+

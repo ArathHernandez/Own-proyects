@@ -1,0 +1,65 @@
+     Assembly listing for: holi.mas
+                Assembled: Wed Nov 21 00:39:15 CST 2018
+
+         |                          //Erbey Arath Hernandez Villarreal, a00825343
+         |                          
+         |         ORG 100           
+100 5000 |         INPUT             
+101 2??? |         STORE a           
+   **** Operand undefined.
+102 5000 |         INPUT             
+103 2??? |         STORE b           
+   **** Operand undefined.
+104 5000 |         INPUT             
+105 2??? |         STORE c           
+   **** Operand undefined.
+106 1??? |         LOAD a            
+   **** Operand undefined.
+107 4??? |         SUBT b            
+   **** Operand undefined.
+108 2??? |         STORE result      
+   **** Operand undefined.
+109 A000 |         CLEAR             
+10A 1??? |         LOAD result       
+   **** Operand undefined.
+10B 3??? |         ADD c             
+   **** Operand undefined.
+10C 2??? |         STORE result      
+   **** Operand undefined.
+10D A000 |         CLEAR             
+10E 1??? |         LOAD five         
+   **** Operand undefined.
+10F 2??? |         STORE count       
+   **** Operand undefined.
+110 ???? |         LOOP1             
+   **** Instruction not recognized.
+   **** Missing operand.
+111 1??? |         LOAD result       
+   **** Operand undefined.
+112 3??? |         ADD sum1          
+   **** Operand undefined.
+113 6000 |         OUTPUT            
+114 2??? |         STORE sum1        
+   **** Operand undefined.
+115 1??? |         LOAD count        
+   **** Operand undefined.
+116 4??? |         SUBT one          
+   **** Operand undefined.
+117 2??? |         STORE count       
+   **** Operand undefined.
+118 8800 |         SKIPCOND 800      
+119 9??? |         JUMP end          
+   **** Operand undefined.
+11A 9??? |         JUMP loop1        
+   **** Operand undefined.
+         |         END               
+
+21 errors found.  Assembly unsuccessful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+         --------------------------------------------------
+
+

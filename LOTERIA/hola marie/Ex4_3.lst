@@ -1,0 +1,39 @@
+     Assembly listing for: Ex4_3.mas
+                Assembled: Wed Nov 21 01:25:21 CST 2018
+
+         |                          //ERBEY ARATH HERNANDEZ VILLARREAL, A00825343
+         |                          
+         |                          / Example 4.3 
+         |         ORG 100           
+100 1109 |         LOAD X           / Load the first number to be doubled.
+101 210B |         STORE Temp       / Use Temp as a parameter to pass value to Subr.
+102 010C |         JNS Subr         / Store the return address, and jump to the procedure.
+103 2109 |         STORE X          / Store the first number, doubled
+104 110A |         LOAD Y           / Load the second number to be doubled.
+105 210B |         STORE Temp        
+106 010C |         JNS Subr         / Store the return address and jump to the procedure.
+107 210A |  Loop   STORE Y          / Store the second number doubled.
+108 7000 |         HALT             / End program.
+109 0014 |  X      DEC 20            
+10A 0030 |  Y      DEC 48            
+10B 0000 |  Temp   DEC 0             
+10C 0000 |  Subr   HEX 0            / Store return address here.
+10D 110B |         LOAD Temp        / Actual subroutine to double numbers.
+10E 310B |         ADD Temp         / AC now holds double the value of Temp.
+10F C10C |         JUMPI Subr       / Return to calling code.
+         |         END               
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          Loop   |   107   | 
+          Subr   |   10C   | 102, 106, 10F
+          Temp   |   10B   | 101, 105, 10D, 10E
+          X      |   109   | 100, 103
+          Y      |   10A   | 104, 107
+         --------------------------------------------------
+
+

@@ -1,0 +1,55 @@
+ORG 100
+Input
+Store X
+Input
+Store A
+Input 
+Store B
+Input
+Store C
+Load X
+Subt2
+Store X
+Clear
+Load A
+Storecount
+Loop 1
+Load X
+Add Sum 1
+Output
+Store Sum 1
+Load Count
+Subt One
+Store Count
+Skipcond 800
+Jump Count 2
+Jump Loop 1
+Count 2
+Load B
+Store Count
+Clear
+Load Sum 1
+Subt three
+Store Sum 1
+Clear
+Loop 2
+Load Sum 1
+Add Sum 2
+Store Sum 2
+Output
+Load Count
+Subt one
+Store Count
+Subt one
+Store count
+Skipcond 800
+Jump count 3
+Jump loop 2
+Count 3
+Load C
+Store Count
+Clear
+Load Sum 2
+Subt four
+Store Sum 2
+Clear
